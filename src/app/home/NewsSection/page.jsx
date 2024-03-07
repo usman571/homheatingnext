@@ -2,7 +2,7 @@ import React from "react";
 import CarouselComponent from "@/components//home/CarouselComponent";
 import { blogData } from "@/constants/data";
 
-const BlogSection = () => {
+const NewsSection = () => {
   return (
     <div className="mx-auto flex flex-col items-center justify-center h-[615px] bg-[#FBFBFE]">
       <div className="w-full sm:max-w-[600px] md:max-w-[1073px] h-fit relative sm:mx-auto">
@@ -10,7 +10,7 @@ const BlogSection = () => {
           News & Updates
         </h1>
         <p className="text-center max-w-[400px] font-normal text-sm text-[#000000] pt-2 mx-auto">
-          Explore UK's energy news and updates
+          Explore UKs energy news and updates
         </p>
         <CarouselComponent data={blogData} />
       </div>
@@ -18,4 +18,4 @@ const BlogSection = () => {
   );
 };
 
-export default BlogSection;
+export default NewsSection;
