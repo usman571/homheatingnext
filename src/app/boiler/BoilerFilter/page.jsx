@@ -29,6 +29,7 @@ const fetchBoilerData = async () => {
     }
 
     const tokenData = await tokenResponse.json();
+    return tokenData;
     const authToken = tokenData.data.token;
 
     console.log("Auth Token:", authToken);
