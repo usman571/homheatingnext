@@ -1,7 +1,7 @@
 import Hero from "@/components/home/Hero";
 import BlogSection from "@/app/home/BlogSection/page";
 import NewsSection from "@/app/home/NewsSection/page";
-import GetInTouchSection from "@/app/GetInTouncSection/page";
+import GetInTouchSection from "@/app/GetInTouchSection/page";
 import ManufacturerSection from "@/app/home/ManufacturerSection/page";
 import CTASection from "@/app/home/CTASection/page";
 

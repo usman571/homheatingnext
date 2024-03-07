@@ -1,5 +1,5 @@
 import React from "react";
-import CarouselComponent from "@/components/CarouselComponent";
+import CarouselComponent from "@/components//home/CarouselComponent";
 import { blogData } from "@/constants/data";
 
 const BlogSection = () => {

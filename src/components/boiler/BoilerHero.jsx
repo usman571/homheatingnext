@@ -1,6 +1,6 @@
 "use client"
 
-import backgroundImage from "../../../public/assets/Background.png";
+import backgroundImage from "../../../public/assets/background.png";
 
 const BoilerHero = () => {
   const backgroundImageStyle = {

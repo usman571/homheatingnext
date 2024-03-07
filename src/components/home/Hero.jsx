@@ -13,7 +13,7 @@ import "aos/dist/aos.css";
 // import ComboBox from "../../components/mui/manuefacturerDropDown";
 import CustomDivider from "@/components/CustomDivider";
 import Link from "next/link";
-import backgroundImage from "../../public/assets/Background.png";
+import backgroundImage from "../../../public/assets/background.png";
 
 const Hero = () => {
   const backgroundImageStyle = {
