@@ -7,8 +7,10 @@ import Pagination from "@mui/material/Pagination";
 import { boilerCardsData } from "@/constants/data";
 import { useState } from "react";
 
-const BoilerFilterView = () => {
-  const [boilerData, setBoilerData] = useState([]);
+const BoilerFilterView = ({boilerData}) => {
+  console.log("boiler data")
+  console.log(boilerData)
+  // const [boilerData, setBoilerData] = useState(boilerData);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
