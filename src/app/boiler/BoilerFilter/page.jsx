@@ -49,6 +49,7 @@ const fetchBoilerData = async () => {
     const totalCount = boilerData.data.total;
     totalPages = Math.ceil(totalCount / itemsPerPage);
     unfilteredData = boilerData.data.data;
+    return unfilteredData;
   } catch (error) {
     console.error("Error during token generation:", error);
   }
@@ -56,6 +57,7 @@ const fetchBoilerData = async () => {
 
 const BoilerFilter = async () => {
   const boilerData = await fetchBoilerData();
+  console.log("server boiler undifined ")
   console.log(boilerData);
   return (
     <div>
