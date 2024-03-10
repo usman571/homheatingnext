@@ -30,6 +30,7 @@ const fetchBoilerData = async () => {
 
     const tokenData = await tokenResponse.json();
     return tokenData;
+    
     const authToken = tokenData.data.token;
 
     console.log("Auth Token:", authToken);
@@ -58,7 +59,7 @@ const fetchBoilerData = async () => {
 
 const BoilerFilter = async () => {
   const boilerData = await fetchBoilerData();
-  console.log("server boiler undifined ")
+  console.log("server boiler  ")
   console.log(boilerData);
   return (
     <div>
